@@ -1,0 +1,19 @@
+.sidebarChat{
+  display: flex;
+  padding: 4vh;
+  cursor: pointer;
+  border-bottom: 1px solid #f6f6f6;
+}
+.sidebarChat:hover{
+  background-color: #ebebeb;
+}
+
+.sidebarChat_Info>h2{
+  font-size: 4vh;
+  margin-bottom: 1.6vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebarChat_Info{
+  margin-left: 2vh;
+}

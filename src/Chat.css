@@ -1,0 +1,71 @@
+.chat{
+  flex: 0.65;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat_header{
+  display: flex;
+ padding: 4vh;
+ align-items: center;
+ border-bottom: 1px solid lightgray;
+}
+
+.chat_headerInfo{
+  flex: 1;
+  padding-left: 2.5vw;
+}
+
+.chat_headerInfo>h3{
+  margin-bottom: 0.7vh;
+  font-weight: bolder;
+}
+
+.chat_headerInfo>p{
+  color: gray;
+
+}
+
+
+.chat_headerRight{
+  display: flex;
+  justify-content: space-between;
+  min-width: 13vw;
+}
+
+.chat_body{
+  flex: 1;
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSEhIVFRUXFxUXFxcXFxoXFxcXFRcXFxUXFxcYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBwcHGg8HDisZFRkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIATAApgMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAIBABAQEBAAAHAQEAAAAAAAAAAAERAiExQVFhcYHREv/EABUBAQEAAAAAAAAAAAAAAAAAAAAD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A6mzaomonKwwAAoEEqgBhgJqmgIoABCAAoIJi0CqmKCXxFqUA0sICWLDDANTlQAKUDEhpgKYUBdRIuABpgBomguBKAQw0ApKAFIYQEmr5BYCf6VNwnkC0IAKmAAi6CaRfw0DExbUtBcVIoIlqwwE01PJQXExQAwqAoAJJ7EnooAYAAlXQJTBAWxFAUAEAAhqauAKgAhigCfK0CmhoJF1IQFDTAE1YkBYJiggoBhhSAli4lpAXooAUomgshhgACSgun4qABVBIJYoBAAFASwkTnfxQCiaAoAJilAGZWsAKaQCwqVQMAoBioAFpAKKAlCEALAAKQAgFApi6gJigAQwoEKagLYaIC3oKYAKAzasS4vyBgmgFNXDABLAF0AEq0wBDFjQMQWlApgAkUwACVQQhpAIWi6CAWAUpGb/NBtE9F0EtWBoGiRb9AYRFoEKAEMTVA5CRQQDQNFiZ7gQoUFiGFAJRICkoAiwToFISAJTpSAmKIDUCAIBQKAC6mGAGhUBZQwALSQ0EouAAQwBcQASqYBFSKCT3AwDS000CgASAAAAaGF8QDDkBJFwSgWqGgAkgKqUAOg0EaqABYLKCaJPJQTWkoBAwkBLSVQANWAgi4ALrOg0JYAkqpIoBAA0tDQSRfUoAJKtBKsqdRJAWxGgEkW0sUGeWkiWgoaAULACpilAEUADATDVgCLU5WgRCrYBAwgEoi2AEhhoBCUBYIoIBAKACLhAA0LQDQgEEigERQCAAli0AxMWgEVIoICaC6qAEAApBAUomAukEBU6igBSAAJYC0TVBLVUBCgAEoBVSIAolA1ZUICgAqEARaRNBTQgBAAD6UH//2Q==");
+  background-repeat: repeat;
+  background-position: center;
+  overflow: scroll;
+  padding: 7vh; 
+}
+
+.chat_message{
+  position: relative;
+  font-size: 16px;
+  padding: 2vh;
+ background-color: #ffffff;
+ border-radius: 3vh;
+ width: fit-content;
+ margin-bottom: 3vh;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chat_receiver{
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+
+.chat_name{
+  position: absolute;
+  font-size: xx-small;
+  top: -3.5vh;
+
+}
+
+.chat_timestamp{
+margin-left: 2vh;
+font-size: xx-small;
+}

@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.app{
+  background-color: #dadbd3;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.app_body{
+  display: flex;
+  background-color: #ededed;
+  margin-top: -5vh;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.2) ;
+}
