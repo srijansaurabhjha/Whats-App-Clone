@@ -53,7 +53,7 @@ flex: 0.35;
 .sidebar_chats{
   flex:1;
   background-color: white;
-  overflow: scroll; 
+  overflow: auto; 
 }
 
 
