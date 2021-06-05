@@ -69,3 +69,33 @@
 margin-left: 2vh;
 font-size: xx-small;
 }
+
+.chat_footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  border-top: 1px solid lightgray;
+}
+
+.chat_footer>form{
+  display: flex;
+  flex: 1;
+}
+
+.chat_footer>form>input{
+ flex: 1;  
+ border-radius: 5vh;
+ border: none;
+ padding: 1vh 2vh;
+ outline: none;
+}
+
+.chat_footer>form>button{
+  display: none;
+}
+
+.chat_footer>.MuiSvgIcon-root{
+  padding: 2vh;
+  color: gray;
+}
